@@ -1,10 +1,13 @@
 {
+  "homepage": "https://MohamedKhalilKhedhri.github.io/Front-end",
   "name": "landingpage",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
